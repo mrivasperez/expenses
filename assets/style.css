@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif ;
+    font-family: sans-serif ;
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -19,9 +19,9 @@ body {
     text-shadow: 5px 5px 10px #000000,;
 }
 
-.contianer {
+.container {
     margin: 30px auto;
-    width: 350px;
+    width: 50%;
 }
 
 h1 {
@@ -48,7 +48,6 @@ h4 {
     justify-content: space-between;
     margin: 20px 0;
     border-radius: 5px;
-    background: #f7f7f7;
     box-shadow:  15px 15px 30px #d2d2d2, 
                  -15px -15px 30px #ffffff;
 }
@@ -92,7 +91,7 @@ input[type='text'], input[type='number'] {
 
 .btn {
     margin: 20px auto;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border: 0;
     display: block;
     font-size: 16px;
@@ -139,7 +138,7 @@ input[type='text'], input[type='number'] {
     border-right: 5px solid  #c0392b;
 }
 
-.list .li.plus {
+.list li.plus {
     border-right: 5px solid #2ecc71;
 }
 
@@ -167,8 +166,8 @@ button {
     transform: translate(-100%, -50%);
     opacity: 0;
     transition: opacity 0.33s ease;
-    height: 44px;
-    width: 44px;
+    height: 30px;
+    width: 30x;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -192,7 +191,7 @@ button {
 
 input {
     border-radius: 5px;
-    background: #f7f7f7;
+    background: #ffffff;
     box-shadow:  5px 5px 10px #d2d2d2, 
                  -5px -5px 10px #ffffff;
     border: none;
@@ -202,7 +201,7 @@ input {
 
 input:hover {
     border-radius: 5px;
-    background: #f7f7f7;
+    background: #ffffff;
     box-shadow:  7px 7px 10px #d2d2d2, 
                  -7px -7px 10px #ffffff;
     transition: 0.33s ease-in-out;
@@ -210,7 +209,7 @@ input:hover {
 
 input:active {
     border-radius: 5px;
-    background: #f7f7f7;
+    background: #ffffff;
     box-shadow:  10px 10px 10px #d2d2d2, 
                  -10px -10px 10px #ffffff;
     transition: 0.33s ease-in-out;
