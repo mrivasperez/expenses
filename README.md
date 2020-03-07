@@ -11,4 +11,4 @@ Run index.html or try the [live demo](https://mrivasperez.github.io/expenses/)
 [Miguel Rivas Perez](https://github.com/mrivasperez)
 
 ## Screenshot
-[a screenshot](assets/screenshot.png)
+![a screenshot](assets/screenshot.png)
